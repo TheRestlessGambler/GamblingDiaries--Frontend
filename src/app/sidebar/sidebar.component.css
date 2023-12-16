@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    background-color: black;
+}
+
+#navbar {
+    width: 1920px;
+    height: 117px;
+    background-color: #0c0c0c;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#sidebar {
+    width: 200px;
+    height: 953px;
+    background-color: #0c0c0c;
+    position: fixed;
+    top: 117px; /* Adjusted to navbar height */
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#sidebar li {
+    letter-spacing: 3px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sidebar li:hover {
+    background-color: #8139ec;
+}
+
+#content {
+    margin-left: 229px; /* Adjusted to sidebar width */
+    margin-top: 117px; /* Adjusted to navbar height */
+    padding: 20px;
+}
+.sidebarDashboard{
+    position: relative;
+    left: -4px;
+}
+.sidebarProfile ,
+.sidebarLogOut {
+    position: relative;
+    top: 7.5rem;
+}
+.brand img{
+    position: relative;
+    top: 0.6rem;
+    left: 2.2rem;
+    width: 90px;
+    height: 90px;
+}
+
+.sidebarDashboard svg,
+.sidebarNews svg,
+.sidebarJournal svg,
+.sidebarProfile svg,
+.sidebarLogOut svg {
+    margin-right: 25px; /* Adjust the margin as needed */
+}
+#sidebar li.active {
+    background-color: #8139ec; /* Color for the active item */
+}
+
+#sidebar li {
+    /* ... existing styles ... */
+    transition: background-color 0.3s ease;
+}
+#sidebarItems{
+    position: relative;
+    
+}
+.sidebarNews, .sidebarJournal{
+    margin-top: 3px;
+}
+.pfp{
+    position: relative;
+    top: 6px;
+    left: 100rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.pfpName{
+    opacity: 0.8;
+    letter-spacing: 2px;
+    position: relative;
+    top: -8px;
+    left: 101rem;
+    color: #ffffff;
+    font-size: 15px;
+}
+.designation{
+    letter-spacing: 2px;
+    font-size: 14px;
+    opacity: 0.8;
+    position: relative;
+    top: 19px;
+    left: 97rem ;
+    color: #8139ec;
+}
+.first{
+    padding-top: 30px !important;
+    padding-bottom: 200px !important;
+}

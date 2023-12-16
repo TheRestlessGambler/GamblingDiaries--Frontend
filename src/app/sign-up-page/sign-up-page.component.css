@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  display: flex;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+  font-size: 47px;
+  text-align: center;
+  margin-left: 45rem;
+  margin-top: 1rem;
+  height: 50px;
+  width: auto;
+  margin-bottom: 7rem;
+}
+
+img {
+  height: 59.55rem;
+}
+
+.name-group,
+.email-group,
+.password-group,
+.confirm-password-group {
+  margin-top: 5rem;
+}
+
+.name-group input,
+.email-group input,
+.password-group input,
+.confirm-password-group input {
+  position: relative;
+  left: 37rem;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: large;
+  border-bottom: 1px solid #b0a7a7;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  width: 30rem;
+}
+.password-group input {
+  left: 35.5rem;
+}
+.name-group input {
+  left: 36.75rem;
+}
+
+.control-label {
+  position: relative;
+  padding-top: 2rem;
+  top: -2.2rem;
+  left: 39rem;
+  font-size: 12px;
+  color: grey;
+}
+
+.name-group input:focus,
+.email-group input:focus,
+.password-group input:focus,
+.confirm-password-group input:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.confirm-password-group input {
+  left: 32.74rem;
+}
+
+.btn {
+  position: relative;
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 16px;
+  background: #8139ec;
+  padding: 10px 100px 10px 100px;
+  text-decoration: none;
+  top: 3.5rem;
+  left: 46rem;
+}
+
+.btn:hover {
+  background: #8b4eed;
+}
+
+.signup-divider {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  top: 3.8rem;
+  left: 32rem;
+  width: 45rem;
+}
+
+.divider-line {
+  flex-grow: 1;
+  height: 0.1px;
+  background-color: #817f7f;
+  margin: 0 10px;
+}
+
+.divider-text {
+  color: grey;
+  font-size: 16px;
+  margin: 0 15px;
+}
+
+/* Additional style to adjust position */
+.form-group {
+  position: relative;
+  top: 5rem;
+}
+
+.facebook, .google{
+  position: relative;
+  height: 30px;
+  width: 30px;
+}
+.facebook{
+  left: 58rem;
+  top: 5.8rem;
+}
+.google{
+  left: 48rem;
+  top: 5.8rem;
+
+}
+.bottomtxt{
+  position: relative;
+  color: #908888;
+  font-size: 13px;
+  left: 30rem;
+  top: 7rem;
+}
+
+.signin{
+  opacity: 70%;
+  color: #8139ec;
+}
+.signin:hover{
+  opacity: 100%;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+  </style>
+  <body>
+    <img src="assets/sideImage.png" alt="sideImage" />
+    <div class="form-group">
+      <h3>Sign In.</h3>
+      <form action="sumbit">
+        <div class="email-group">
+          <label for="email" class="control-label">Email</label>
+          <input type="email" name="email" class="form-control" id="email" />
+        </div>
+        <div class="password-group">
+          <label for="password" class="control-label">Password</label>
+          <input
+            type="password"
+            name="password"
+            class="form-control"
+            id="password"
+          />
+        </div>
+        <button class="btn">Sign In</button>
+      </form>
+      <p class="bottomtxt">Create a new account ! <a href="#" class="signin" (click)="signUp($event)">Sign Up</a></p>
+    </div>
+    
+  </body>
+</html>

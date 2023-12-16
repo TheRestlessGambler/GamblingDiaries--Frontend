@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    position: relative;
+    background-color: black;
+    margin: 0; /* Remove default margin */
+    padding: 0;
+    height: 953px;
+}
+
+.fund-label{
+    font-family: "Roboto",sans-serif !important;
+    color: white;
+    position: relative;
+    top: 1.5rem;
+    left: 0.9rem;
+    font-weight: 700;
+    font-size: 14px;
+    opacity: 0.9;
+}
+.funds {
+
+    border-radius: 20px;
+    background-color: #0c0c0c;
+    position: relative;  
+    width: 293px;
+    height: 228px;
+    margin-top: 10rem;
+    margin-left: 15rem;
+}
+.funds svg{
+    opacity: 0.85;
+    position: relative;
+    left: 0.5rem;
+    padding-right: 22px;
+    top: 4rem;
+
+}
+.amount{
+    color: grey;
+    font-family: "Roboto",sans-serif;
+    font-size: 74px;
+    font-weight: 700;
+    position: relative;
+    left: 5.8rem;
+    top: -2rem;
+}
+.funds img{
+
+    position: relative;
+    left:16.5rem;
+    top: -4.7rem;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignUp</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+  </style>
+  <body>
+    <img src="assets/sideImage.png" alt="sideImage" />
+    <div class="form-group">
+      <h3>Get Started.</h3>
+      <form action="sumbit">
+        <div class="name-group">
+          <label for="name" class="control-label">Name</label>
+          <input type="text" name="name" class="form-control" id="name" />
+        </div>
+        <div class="email-group">
+          <label for="email" class="control-label">Email</label>
+          <input type="email" name="email" class="form-control" id="email" />
+        </div>
+        <div class="password-group">
+          <label for="password" class="control-label">Password</label>
+          <input
+            type="password"
+            name="password"
+            class="form-control"
+            id="password"
+          />
+        </div>
+        <div class="confirm-password-group">
+          <label for="confirm-password" class="control-label"
+            >Confirm Password</label
+          >
+          <input
+            type="password"
+            name="confirm-password"
+            class="form-control-pass"
+            id="confirm-password"
+          />
+        </div>
+        <button class="btn" (click)="Dashboard()">Sign Up</button>
+      </form>
+      <div class="signup-divider">
+        <span class="divider-line"></span>
+        <span class="divider-text">Or sign up with</span>
+        <span class="divider-line"></span>
+      </div>
+      <a href="#">
+        <img src="assets/facebook-3-xxl.png" alt="facebook" class="facebook"
+      /></a>
+      <a href="#">
+        <img src="assets/icons8-google-50.png" alt="google" class="google" />
+      </a>
+      <p class="bottomtxt">Already have an account? <a href="#" class="signin" (click)="signIn($event)">Sign In</a></p>
+    </div>
+    
+  </body>
+</html>
