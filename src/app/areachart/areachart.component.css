@@ -1,5 +1,40 @@
+/* Add any styling you need for the chart container */
+.body {
+  max-width: 1000px; /* Set a maximum width for larger screens */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.chartContainer {
+  border-radius: 20px;
+  position: relative;
+  width: 100%; /* Use 100% width to adapt to the container */
+  max-width: 1100px; /* Set a maximum width if needed */
+  height: 386px;
+  background-color: #0c0c0c;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.pnlLabel {
+  position: relative;
+  top: 1rem;
+  left: 1rem;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
 #chart {
-    max-width: 650px;
-    margin: 35px auto;
+  position: relative;
+  top: 2rem;
+  width: 100%; /* Use 100% width to adapt to the container */
+  height: 100%;
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  .chartContainer {
+    width: 100%; /* Take full width on smaller screens */
+    border-radius: 0; /* Remove border-radius if needed */
   }
-  
+}

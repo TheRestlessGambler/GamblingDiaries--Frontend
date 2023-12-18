@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap');
 body {
     position: relative;
     background-color: black;
@@ -6,7 +8,22 @@ body {
     padding: 0;
     height: 953px;
 }
-
+app-areachart{
+    position: relative;
+    display: flex;
+    left: 48rem;
+    top: 10rem;
+    width: 1100px !important;
+    height: 450px;
+    position: relative;
+    
+}
+app-dashboard-table{
+    display: flex;
+    width: 40rem;
+    margin-top: -17rem;
+    margin-left: 18rem;
+}
 .fund-label{
     font-family: "Roboto",sans-serif !important;
     color: white;
@@ -22,31 +39,109 @@ body {
     border-radius: 20px;
     background-color: #0c0c0c;
     position: relative;  
-    width: 293px;
+    width: 350px;
     height: 228px;
-    margin-top: 10rem;
-    margin-left: 15rem;
+    margin-top: -13rem;
+    margin-left: 21rem;
 }
-.funds svg{
+.rupee{
     opacity: 0.85;
     position: relative;
-    left: 0.5rem;
-    padding-right: 22px;
-    top: 4rem;
+    left: 0.8rem;
+    padding-right: 26px;
+    top: 3.5rem;
 
 }
 .amount{
     color: grey;
-    font-family: "Roboto",sans-serif;
-    font-size: 74px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
     font-weight: 700;
     position: relative;
-    left: 5.8rem;
-    top: -2rem;
+    left: 8rem;
+    top: -3rem;
 }
-.funds img{
+.funds .arrow{
 
     position: relative;
-    left:16.5rem;
-    top: -4.7rem;
+    top: -10px;
+    left: 5px;
+    
+}
+.TotalLoss{
+    border-radius: 20px;
+    top: 10rem;
+    left: 55rem;
+    background-color: #0c0c0c;
+    position: relative;
+    display: flex;
+    width: 367px;
+    height: 185px;
+}
+.TotalLoss svg{
+    
+    position: relative;
+    top: 4.5rem;
+    left: -2.5rem;
+}
+.TotalLoss p{
+    top: 1rem;
+    left: 1rem;
+    font-weight: 700;
+    font-family: "Inter";
+    position: relative;
+    height: 10px;
+    width: 85px;
+    color: white;
+}
+.TotalLoss h3{
+    position: relative;
+    left: -0.5rem;
+    top: 3.6rem;
+    font-family: "poppins";
+    color: grey;
+    font-size: 4.7rem;
+}
+
+.TotalProfit{
+    border-radius: 20px;
+    top: -1.5rem;
+    left: 85rem;
+    background-color: #0c0c0c;
+    position: relative;
+    display: flex;
+    width: 367px;
+    height: 185px;
+}
+.TotalProfit svg{
+    
+    position: relative;
+    top: 4.5rem;
+    left: -2.5rem;
+}
+.TotalProfit p{
+    top: 1rem;
+    left: 1rem;
+    font-weight: 700;
+    font-family: "Inter";
+    position: relative;
+    height: 10px;
+    width: 85px;
+    color: white;
+}
+.TotalProfit h3{
+    position: relative;
+    left: -0.5rem;
+    top: 3.6rem;
+    font-family: "poppins";
+    color: grey;
+    font-size: 4.7rem;
+}
+.TotalLoss .arrow,.TotalProfit .arrow{
+    position: relative;
+    left: 0rem;
+    top: 5.2rem;
+}
+.TotalLoss .arrow{
+    transform: rotate(180deg);
 }

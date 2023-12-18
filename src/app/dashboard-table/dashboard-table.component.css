@@ -1,0 +1,41 @@
+.tableClass{
+    width: 30rem;
+    border-radius: 30px;
+    background-color: #0c0c0c;
+}
+table {
+    
+  font-family: 'Inter',sans-serif;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+
+}
+
+table, th, td {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.purple{
+    color: #8139ec;
+}
+
+th, td {
+    border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+th {
+  background-color: #0c0c0c;
+}
+.top{
+    color: white;
+}
+td{
+    font-family: "Inter",sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}

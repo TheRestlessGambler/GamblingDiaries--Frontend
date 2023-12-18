@@ -137,6 +137,9 @@ body {
     left: 97rem ;
     color: #8139ec;
 }
+#sidebar li.active:hover {
+    background-color: #8b4eed; /* Adjust hover effect for the active item */
+  }
 .first{
     padding-top: 30px !important;
     padding-bottom: 200px !important;
